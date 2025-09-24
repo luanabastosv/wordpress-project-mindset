@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mindset-blocks/copyright-dates",
+  "version": "0.1.0",
+  "title": "Copyright Dates",
+  "category": "text",
+  "icon": "calendar",
+  "description": "Display a copryright date.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "startingYear": {
+      "type": "number",
+      "default": 2020
+    }
+  },
+  "textdomain": "copyright-dates",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
