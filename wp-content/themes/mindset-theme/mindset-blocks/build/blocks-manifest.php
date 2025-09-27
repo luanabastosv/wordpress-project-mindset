@@ -122,6 +122,10 @@ return array(
 			'pagination' => array(
 				'type' => 'boolean',
 				'default' => true
+			),
+			'arrowColor' => array(
+				'type' => 'string',
+				'default' => 'var(--wp--preset--color--primary)'
 			)
 		),
 		'textdomain' => 'testimonial-slider',

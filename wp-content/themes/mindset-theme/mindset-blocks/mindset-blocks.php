@@ -149,14 +149,14 @@ function fwd_render_testimonial_slider( $attributes, $content ) {
         'style' => $style,
     ) );
 
-
-    ob_start();
     $swiper_settings = array(
         'pagination' => $attributes['pagination'],
         'navigation' => $attributes['navigation']
     );
+
+    ob_start();
     ?>
-    <div <?php echo get_block_wrapper_attributes(); ?>>
+    <div <?php echo $wrapper_attributes; ?>>
         <script>
             const swiper_settings = <?php echo json_encode( $swiper_settings ); ?>;
         </script>

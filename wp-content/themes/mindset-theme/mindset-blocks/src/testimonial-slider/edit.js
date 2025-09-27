@@ -3,10 +3,10 @@
 */
 import { __ } from '@wordpress/i18n';
 import { InspectorControls, useBlockProps  } from '@wordpress/block-editor';
-import { PanelBody, PanelRow, ToggleControl, PanelColorSettings } from '@wordpress/components';
+import { PanelBody, PanelRow, ToggleControl } from '@wordpress/components';
 import ServerSideRender from '@wordpress/server-side-render';
 import { SwiperInit } from './swiper-init';
-
+import { PanelColorSettings } from '@wordpress/block-editor';
 
 /**
 * Export.

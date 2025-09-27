@@ -42,14 +42,14 @@ function mindset_enqueues() {
             array( 'strategy' => 'defer' )
     );
 
-    wp_dequeue_style( 'wp-block-navigation' );
+    // wp_dequeue_style( 'wp-block-navigation' );
 
-    wp_dequeue_style( 
-        'mindset-navigation',
-        get_theme_file_uri( 'assets/css/navigation.css' ),
-        array(),
-        '12.1.0' 
-);
+    // wp_dequeue_style( 
+    //     'mindset-navigation',
+    //     get_theme_file_uri( 'assets/css/navigation.css' ),
+    //     array(),
+    //     '12.1.0' 
+// );
 }
 
 }
